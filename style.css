@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ITC\ Benguiat\ Book;
+    src: url(ITC\ Benguiat\ Book.ttf);
+}
+
+body {
+    color: hsl(49, 28%, 74%);
+    margin: 0;
+    font-family: ITC\ Benguiat\ Book;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* First section */
+
+.first-section {
+    display: flex;
+    max-width: 1426px;
+    flex-direction: column;
+    flex: 1;
+    padding: 16px 216px 106px
+}
+
+.first-wrapper {
+    background-color: #56513c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.yorha-logo {
+    height: auto;
+    width: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.below-left {
+    flex: 1 1 0;
+}
+
+.main-text {
+    color: #e9e4df;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.sec-text {
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #6f5e4d;
+    color: #f6f1f2;
+    padding: 4px 28px;
+}
+
+.below-right {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.live {
+    border-radius: 15px;
+    width: 300px;
+    flex: 1;
+}
+
