@@ -243,9 +243,13 @@ a:hover .auto:first-child {
 /* footer */
 
 footer {
-    margin: auto;
     font-size: 17px;
     text-align: center;
     background-color: #56513c;
     padding: 24px;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.801);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.664)
 }
